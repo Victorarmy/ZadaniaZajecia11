@@ -24,6 +24,7 @@ public class Main {
         }
 
         StringBuilder stringBuilder = new StringBuilder();
+
         for (int i = 0; i < MAX_USER_INPUTS; i++) {
             stringBuilder.append(userInput.poll() + " + ");
         }

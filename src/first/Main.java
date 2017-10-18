@@ -31,6 +31,7 @@ public class Main {
             }
         }
         System.out.println("Wszystkie: " + randomNumbers);
+        System.out.println("Rozmiar: " + randomNumbers.size());
         System.out.println("Największa: " + randomNumbers.last());
         System.out.println("Najmniejsza: " + randomNumbers.first());
         System.out.println("Srednia: " + average);
